@@ -1,0 +1,29 @@
+# Ambiente Python
+venv/
+venv-exe/
+__pycache__/
+*.pyc
+
+# Vídeos (grandes demais para o Git; o GitHub recusa arquivos acima de 100 MB)
+*.dav
+*.mp4
+*.avi
+*.mov
+*.mkv
+videos/
+
+# Gerados pelo programa
+resultados/
+preferencias.json
+
+# Modelos: são gerados com scripts/exportar_modelo.py
+modelos/
+*.pt
+!yolo11n.pt
+
+# Treino e build do .exe
+dataset/
+runs/
+build/
+dist/
+*.spec

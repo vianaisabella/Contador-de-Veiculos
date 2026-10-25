@@ -1,0 +1,4 @@
+# Necessário só para DESENVOLVER: converter/treinar o modelo e gerar o .exe
+-r requirements.txt
+ultralytics
+pyinstaller

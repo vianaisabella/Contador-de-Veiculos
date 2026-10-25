@@ -1,0 +1,9 @@
+# Necessário para RODAR o programa (e para gerar o .exe)
+numpy
+opencv-python
+Pillow
+openvino
+openpyxl
+
+# Alternativa ao OpenVINO (CPUs AMD, ou se o OpenVINO der problema):
+# onnxruntime
